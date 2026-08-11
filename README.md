@@ -6,7 +6,7 @@ El dataset original (ventas_ecommerce.csv) contiene registros de pedidos de una 
 
 <hr/>
 
-### ⚙️ La limpieza busca
+### ✅ La limpieza busca
 
 • <b>Garantizar consistencia de formato:</b> unificando cómo se representan fechas y texto categórico (mayúsculas/minúsculas, espacios), para que valores que en realidad son iguales (ej. "web", " Web ", "WEB") no se traten como categorías distintas.
 
@@ -17,4 +17,36 @@ El dataset original (ventas_ecommerce.csv) contiene registros de pedidos de una 
 • <b>Tratar valores atípicos (outliers):</b> sin descartar información válida, diferenciando entre valores extremos legítimos (ej. productos caros dentro de una categoría de precio alto) y errores de carga.
 
 • <b>Gestionar valores faltantes:</b> evaluando en cada columna si conviene imputar (por mediana, moda o agrupado), asignar una categoría explícita como "Desconocido", o conservar el faltante como información en sí misma (como en el caso de rating, donde ausencia de calificación puede estar correlacionada con la variable de interés y no debe imputarse con un valor arbitrario).
+
+<hr/>
+
+### ⚙️ Implementación
+
+<table>
+  <tr>
+    <th>Nombre</th>
+    <th>Detalle</th>
+  </tr>
+  <tr>
+    <td>Data set original</td>
+    <td>ventas_ecommerce.csv</td>
+  </tr>
+  <tr>
+    <td>Proceso limpieza Python</td>
+    <td>Ventas_ecommerce_limpieza.ipynb</td>
+  </tr>
+  <tr>
+    <td>Data set limpio</td>
+    <td>ventas_ecommerce_clean.csv</td>
+  </tr>
+</table>
+
+
+<hr/>
+
+### 🔜 Próximos pasos
+
+Realizar un análisis exploratorio utilizando el data set limpio para responder la siguiente pregunta de negocio:
+
+<i>¿Qué categorías, canales o segmentos de clientes tienen mayor tasa de devolución y cómo se relaciona eso con el descuento aplicado y el tiempo de entrega? ¿Dónde conviene enfocar acciones para reducir devoluciones sin resignar ventas?</i>
 
