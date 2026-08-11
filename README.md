@@ -16,7 +16,7 @@ El dataset original (ventas_ecommerce.csv) contiene registros de pedidos de una 
 
 • <b>Tratar valores atípicos (outliers):</b> sin descartar información válida, diferenciando entre valores extremos legítimos (ej. productos caros dentro de una categoría de precio alto) y errores de carga.
 
-• <b>Gestionar valores faltantes:</b> evaluando en cada columna si conviene imputar (por mediana, moda o agrupado), asignar una categoría explícita como "Desconocido", o conservar el faltante como información en sí misma (como en el caso de rating, donde ausencia de calificación puede estar correlacionada con la variable de interés y no debe imputarse con un valor arbitrario).
+• <b>Gestionar valores faltantes:</b> evaluando en cada columna si conviene imputar, asignar una categoría como "Desconocido", o conservar el faltante como información en sí misma (como en el caso de rating, donde ausencia de calificación puede estar correlacionada con la variable de interés y no debe imputarse con un valor arbitrario).
 
 <hr/>
 
