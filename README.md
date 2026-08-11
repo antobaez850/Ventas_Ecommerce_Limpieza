@@ -10,7 +10,7 @@ El dataset original (ventas_ecommerce.csv) contiene registros de pedidos de una 
 
 • <b>Garantizar consistencia de formato:</b> unificando cómo se representan fechas y texto categórico (mayúsculas/minúsculas, espacios), para que valores que en realidad son iguales (ej. "web", " Web ", "WEB") no se traten como categorías distintas.
 
-• <b>Eliminar redundancia:</b> removiendo duplicados exactos que inflarían artificialmente ciertos conteos o promedios.
+• <b>Eliminar redundancia:</b> removiendo duplicados exactos que "inflarían" ciertos conteos o promedios.
 
 • <b>Corregir errores de carga y de sistema:</b> como precios negativos (error de signo), valores que representan fallas técnicas (ej. dias_entrega = 999), o columnas calculadas que quedaron inconsistentes con sus variables de origen (ej. monto_total en 0 pese a tener precio y cantidad válidos).
 
